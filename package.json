@@ -1,0 +1,21 @@
+{
+  "name": "area-of-circle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy O'Neill <aoneill01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@observablehq/runtime": "^4.0.1",
+    "area-of-a-circle": "file:area-of-a-circle.tgz"
+  },
+  "devDependencies": {
+    "rollup": "^1.11.3",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-terser": "^4.0.4"
+  }
+}
