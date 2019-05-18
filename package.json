@@ -10,12 +10,12 @@
   "author": "Andy O'Neill <aoneill01@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@observablehq/runtime": "^4.0.1",
-    "area-of-a-circle": "file:area-of-a-circle.tgz"
+    "@aoneill/area-of-a-circle": "file:area-of-a-circle.tgz",
+    "@observablehq/runtime": "^4.2.0"
   },
   "devDependencies": {
-    "rollup": "^1.11.3",
-    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup": "^1.12.2",
+    "rollup-plugin-node-resolve": "^5.0.0",
     "rollup-plugin-terser": "^4.0.4"
   }
 }

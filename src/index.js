@@ -1,4 +1,4 @@
 import { Runtime, Inspector } from "@observablehq/runtime";
-import notebook from "area-of-a-circle";
+import notebook from "@aoneill/area-of-a-circle";
 
-Runtime.load(notebook, Inspector.into(document.body));
+new Runtime().module(notebook, Inspector.into(document.body));
